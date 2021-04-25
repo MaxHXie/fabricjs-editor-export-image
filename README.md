@@ -12,6 +12,6 @@
 
 <h3> Third party website </h3>
 1. So by tweaking GET parameters in the URL, the image can be changed.
-2. A user on a third party website should therefore be able to call ```html <img src="http://localhost:3000/">``` to see the first picture, and then ```html <img src="http://localhost:3000/?image_id=girl_small_1MB&Lager_1=r6g23b30&Lager_10=r64g18b18&Lager_9=r6g23b30&Lager_8=r63g42b42&Lager_7=r63g42b42&Lager_6=r63g42b42&Lager_5=r63g42b42&Lager_4=r63g42b42&Lager_3=r63g42b42&Lager_2=r63g42b42">``` to see the second picture.
+2. A user on a third party website should therefore be able to call img src="http://localhost:3000/" to see the first picture, and then img src="http://localhost:3000/?image_id=girl_small_1MB&Lager_1=r6g23b30&Lager_10=r64g18b18&Lager_9=r6g23b30&Lager_8=r63g42b42&Lager_7=r63g42b42&Lager_6=r63g42b42&Lager_5=r63g42b42&Lager_4=r63g42b42&Lager_3=r63g42b42&Lager_2=r63g42b42" to see the second picture.
 
 Here is where my problem is, because the React app is not returning an image but a whole DOM thingy.
